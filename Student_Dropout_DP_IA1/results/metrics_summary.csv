@@ -1,0 +1,6 @@
+Model Name,Target Epsilon,Achieved Epsilon,Delta,Noise Multiplier (sigma),Accuracy (%),F1 Macro (%),F1 Weighted (%),Precision Macro (%),Recall Macro (%),Test Loss,Training Time (s)
+Baseline (Non-Private),N/A (Non-private),Non-private (inf),0.0,0.0,73.22,67.01,73.23,67.06,66.97,0.7079,6.27
+DP (eps=1.0),1.0,1.0,1e-05,2.6562,73.45,59.63,69.66,62.74,61.06,1.0386,13.9
+DP (eps=3.0),3.0,2.99,1e-05,1.189,76.27,64.96,73.35,70.07,65.03,0.851,17.68
+DP (eps=5.0),5.0,4.99,1e-05,0.9094,76.5,65.83,73.92,70.18,65.68,0.8362,24.43
+DP (eps=10.0),10.0,9.99,1e-05,0.6879,76.38,66.27,74.07,70.12,65.97,0.8248,30.31

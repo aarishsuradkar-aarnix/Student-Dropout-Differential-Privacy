@@ -1,0 +1,29 @@
+Dataset Name: Predict Students' Dropout and Academic Success
+UCI Machine Learning Repository ID: 697
+DOI: https://doi.org/10.24432/C5MC89
+Repository URL: https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+Direct Archive Download: https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip
+
+Authors/Creators:
+- Valentim Realinho (Instituto Politécnico de Portalegre)
+- Jorge Machado (Instituto Politécnico de Portalegre)
+- Baptista (Instituto Politécnico de Portalegre)
+- Mónica V. Martins (Instituto Politécnico de Portalegre)
+
+Date of Publication: 2021-12-13
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Dataset Characteristics:
+- Total Records (Instances): 4,424
+- Total Features: 36 input variables + 1 Target variable (37 columns total)
+- File Format: Comma/Semicolon-delimited CSV (semicolon delimiter ';')
+- Missing Values: 0 missing values across all records
+- Class Labels:
+  * Graduate: 2,209 (49.93%)
+  * Dropout: 1,421 (32.12%)
+  * Enrolled: 794 (17.95%)
+
+Ethical and Privacy Considerations:
+Data originated from higher education administrative and academic records in Portugal. The dataset was sanitized by the original researchers to remove direct personal identifiers (names, student identification numbers, social security numbers) prior to public deposit.
+However, because it contains granular demographic, socio-economic (e.g., parents' qualifications, scholarship status, debt status), and semester-by-semester academic performance, training a predictive model without privacy protections exposes records to membership inference attacks (MIA) and attribute disclosure.
+This project applies Differentially Private Stochastic Gradient Descent (DP-SGD) to provide formal mathematical privacy guarantees against such attacks.
